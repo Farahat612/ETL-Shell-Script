@@ -10,7 +10,8 @@ This repository contains a shell script designed to perform a simple ETL (Extrac
 ## Problem Statement
 
 The specific task addressed by these scripts is to copy data from the file 'web-server-access-log.txt.gz' into a PostgreSQL table named 'access_log' within the 'template1' database. The data in the file is formatted with several columns, including timestamp, latitude, longitude, visitor ID, accessed from mobile (boolean), and browser code (integer). For this ETL process, we are interested in copying the first four columns: timestamp, latitude, longitude, and visitor ID.
-You can access that mentioned file [here]([url](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-DB0250EN-SkillsNetwork/labs/Bash%20Scripting/ETL%20using%20shell%20scripting/web-server-access-log.txt.gz)) 
+
+You can access that mentioned file [here](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-DB0250EN-SkillsNetwork/labs/Bash%20Scripting/ETL%20using%20shell%20scripting/web-server-access-log.txt.gz). 
 
 
 ## Installation and Setup
