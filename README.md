@@ -51,7 +51,7 @@ CREATE TABLE access_log(
 
 ### Step 3: Making the Shell Script Executable
 
-To use the shell script 'cp-access-log.sh', make it executable with the following command:
+To use the shell script `cp-access-log.sh`, make it executable with the following command:
 ```shell
 chmod +x cp-access-log.sh
 ```
